@@ -126,7 +126,7 @@ export default function Hero() {
             <MagneticButton href="#work" data-id="element-89">
               View Projects <ArrowUpRight className="h-4 w-4" data-id="element-90" />
             </MagneticButton>
-            <MagneticButton href="https://drive.google.com/file/d/1kvZfK4SHsUHxBh7Ir1l-ujcAFBLzezz-/view?usp=drive_link" variant="ghost" target="_blank" rel="noopener noreferrer" data-id="element-91">
+            <MagneticButton href="https://drive.google.com/file/d/1kvZfK4SHsUHxBh7Ir1l-ujcAFBLzezz-/view?usp=sharing" variant="ghost" target="_blank" rel="noopener noreferrer" data-id="element-91">
               Download Resume <Download className="h-4 w-4" data-id="element-92" />
             </MagneticButton>
             <MagneticButton href="#contact" variant="ghost" data-id="element-93">
