@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Send, Dribbble, Github, CheckCircle, Loader2 } from "lucide-react";
+import { Mail, Send, CheckCircle, Loader2 } from "lucide-react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import SectionHeader from "./SectionHeader";
 
 const socialLinks = [
@@ -13,7 +14,7 @@ const socialLinks = [
   {
     label: "LinkedIn",
     value: "linkedin.com/in/mahalingam-s-901327311/",
-    icon: Linkedin,
+    icon: FaLinkedin,
     href: "https://www.linkedin.com/in/mahalingam-s-901327311/",
   },
   {
@@ -25,7 +26,7 @@ const socialLinks = [
   {
     label: "GitHub",
     value: "https://github.com/mahalingam15",
-    icon: Github,
+    icon: FaGithub,
     href: "https://github.com/mahalingam15",
   },
 ];
